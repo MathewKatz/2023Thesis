@@ -1,2 +1,10 @@
 # 2023Thesis
 MLB ‘Fielding Independent Pitching’ Prediction
+
+Abstract:
+Major League Baseball is a thriving North American professional baseball league with an impressive 11-billion-dollar valuation that translates into an average team value of $344 million U.S. dollars. The league not only creates employment opportunities, but also stimulates local economies through tourism and business activities associated with games, making it a significant contributor to the larger sporting industry.
+Recognizing its profound historical, traditional, economic, and social significance, I sought a meaningful way to contribute to the success of Major League Baseball teams. With this goal in mind, the purpose of this project was to predict 'Fielding Independent Pitching' (FIP) using pitcher’s statistics from the previous year. FIP is a metric that focuses exclusively on aspects of a pitcher's performance where they exert the most influence—namely, strikeouts, walks, hit-by- pitches, and home runs. It intentionally excludes outcomes related to balls hit into the field of play.
+After considering the option of utilizing Earned Run Average (ERA), a measure that signifies the average number of earned runs a pitcher concedes per nine innings pitched and is widely employed as a standard pitching performance metric, I ultimately decided that FIP would be a
+more precise gauge of a pitcher's effectiveness.
+To address this inquiry, I employed a five-step approach, encompassing Data Gathering, Data Preprocessing, Data Exploration, Regression Modeling, and Model Evaluation. In my investigation, I explored baseball statistics with the strongest correlation to the following year's FIP, selecting optimal features for the model. Several regression models were tested, with Linear Regression emerging as the top performer, surpassing a baseline model created for comparative purposes.
+Notably, the model achieved a Mean Squared Error of 0.73, demonstrating superior predictive accuracy compared to the baseline model, which simply predicted the target variable's outcome based on the mean for all samples.
